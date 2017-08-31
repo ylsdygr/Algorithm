@@ -3,6 +3,8 @@
 //
 /*
  * 斐波那契数列
+ * 斐波那契数列的特点：第1个和第2个数都为1，从第3个数开始，该数是前两个数之和。
+ * 求给定元素个数的斐波那契数列
  */
 #include <stdio.h>
 
@@ -10,7 +12,7 @@ void print_fibonacci(int in_number);
 
 int main() {
     int input_number = 0;
-    printf("请输入你想计算数列的最后一个值\n");
+    printf("请输入你想计算数列的元素个数\n");
     scanf("%d", &input_number);
     print_fibonacci(input_number);
     return 0;

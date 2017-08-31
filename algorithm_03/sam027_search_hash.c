@@ -3,10 +3,13 @@
 //
 /*
  * 哈希查找
+ * 通过计算数据元素的存储地址进行查找的一种方法。
+ * 用给定的哈希函数构造哈希表；
+ * 根据选择的冲突处理方法解决地址冲突；
+ * 在哈希表的基础上执行哈希查找
  */
 #include <stdio.h>
 #include <memory.h>
-
 
 void calc_hash_table(int in_hash_array[][11], int in_hash_number, int ori_array[], int arr_count);
 
